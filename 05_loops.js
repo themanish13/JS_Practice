@@ -9,7 +9,7 @@ for(let j=1; j<=5; j++){
 //while loop
 let i = 1;
 while(i <= 5){
-    console.log("iloveyou kunjan acharya");
+    console.log("my sweet little puppy");
     i++;
 }
 
