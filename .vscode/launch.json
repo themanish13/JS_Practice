@@ -1,0 +1,13 @@
+{
+    // Launch configuration for running Node.js scripts with the Run button (no terminal typing required)
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Run 13_factorial.js",
+            "program": "${workspaceFolder}/13_factorial.js",
+            "console": "integratedTerminal"
+        }
+    ]
+}
