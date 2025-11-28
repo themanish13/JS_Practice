@@ -11,4 +11,3 @@ for(let i=0; i<str.length; i++){
 }
 
 console.log("Number of vowels in the string:", count);
-palm
