@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Event Handling</title>
+</head>
+<body>
+
+<h2>Click the Button!</h2>
+<button id="myButton">Click Me</button>
+<p id="message"></p>
+
+<script>
+  // Get the button element
+  const button = document.getElementById('myButton');
+
+  // Add a click event listener
+  button.addEventListener('click', function() {
+    document.getElementById('message').innerText = 'Button was clicked!';
+  });
+</script>
+
+</body>
+</html>
